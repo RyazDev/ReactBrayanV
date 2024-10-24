@@ -1,0 +1,32 @@
+/* src/pages/CharacterPage.css */
+.character-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.character-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.character-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.character-details {
+  text-align: left;
+  font-size: 18px;
+}
+
+.character-details p {
+  margin: 5px 0;
+}
+
+.character-details strong {
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.footer {
+  background-color: black; /* Color de fondo del footer */
+  color: white; /* Color del texto del footer */
+  text-align: center; /* Centrar el texto */
+  padding: 370px 0; /* Espacio interno */
+  position: relative; /* Mantiene el footer en la posición normal del flujo */
+  width: 10%; /* Asegura que el footer ocupe todo el ancho */
+}
+

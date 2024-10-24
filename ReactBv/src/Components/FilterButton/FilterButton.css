@@ -1,0 +1,19 @@
+.filter-button {
+    display: inline-block; /* Permite el espaciado en línea */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 1rem; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.filter-button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+.filter-button:active {
+    background-color: #004494; /* Color cuando se hace clic */
+}

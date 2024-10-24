@@ -1,0 +1,23 @@
+/* src/pages/HomePage.css */
+.home-page {
+  padding: 20px;
+  text-align: center; /* Centra el texto en toda la sección */
+}
+
+.character-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Cambiado a 'center' para centrar las tarjetas */
+  margin-top: 20px; /* Espacio superior para separar el h2 de las tarjetas */
+}
+
+.character-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Ajusta el tamaño según lo necesites */
+  text-align: center; /* Asegura que el texto dentro de las tarjetas esté centrado */
+}
+
